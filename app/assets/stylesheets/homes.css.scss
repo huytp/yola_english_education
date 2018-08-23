@@ -1,0 +1,466 @@
+@import 'constant';
+#no-overflow {
+  overflow: hidden;
+  #yl-alert {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 10;
+    border-radius: 0px;
+    .close.yl-close {
+      margin-left: 5px;
+    }
+  }
+}
+
+.yl-home{
+  #day-time {
+    background: #BCE6FC url("#{asset_path('background_sun.jpg')}") repeat-x  top left ;
+    background-size: 800px;
+    z-index: 0;
+  }
+  #day-night {
+    display: none;
+    background: #B9E4FA url("#{asset_path('background_moon.jpg')}") top left ;
+    z-index: 0;
+  }
+  #yola-logo {
+    position:absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 2%;
+    width: 100px;
+    height: 25px;
+    background:transparent url("#{asset_path('yola-logo.png')}") no-repeat center center;
+    background-size: 100px;
+    z-index: 10;
+  }
+  #program-logo {
+    position:absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 10%;
+    width: 150px;
+    height: 130px;
+    background:transparent url("#{asset_path('logo.png')}") no-repeat center center;
+    background-size: 150px;
+    z-index: 10;
+  }
+  #button-request-detail {
+    position:absolute;
+    margin: auto;
+    right: 0;
+    left: -295px;
+    top: 40%;
+    width: 285px;
+    height: 90px;
+    background:transparent url("#{asset_path('button-2.png')}") no-repeat;
+    background-size: 285px;
+    z-index: 10;
+  }
+  #button-request-detail:active {
+    box-shadow: none;
+  }
+  #button-request-detail:focus {
+    outline: none;
+  }
+
+  #button-request {
+    position:absolute;
+    margin: auto;
+    right: 0;
+    left: 295px;
+    top: 40%;
+    width: 285px;
+    height: 90px;
+    background:transparent url("#{asset_path('button.png')}") no-repeat;
+    background-size: 285px;
+    z-index: 10;
+  }
+  #button-request:active {
+    box-shadow: none;
+  }
+  #button-request:focus {
+    outline: none;
+  }
+
+  #parachute {
+    position:absolute;
+    right: 20%;
+    bottom: 2%;
+    width: 35px;
+    height: 62px;
+    background:transparent url("#{asset_path('du.png')}") no-repeat center center;
+    background-size: 35px;
+    z-index: 3;
+  }
+  #ground{
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 232px;
+    background:transparent url("#{asset_path('ground.png')}") repeat-x bottom center;
+    z-index: 4;
+    background-size: 50%;
+  }
+
+  #lanterns{
+    position:absolute;
+    right: 0;
+    left: 0;
+    top: 75%;
+    height: 23%;
+    width: 100%;
+    z-index:9;
+    overflow:hidden;
+    display: none;
+
+    .lantern-1 {
+      background:transparent url("#{asset_path('ld-1.png')}") no-repeat bottom center;
+    }
+    .lantern-2 {
+      left: 5%;
+      top: 8px;
+      background:transparent url("#{asset_path('ld-2.png')}") no-repeat bottom center;
+    }
+    .lantern-3 {
+      left: 10%;
+      top: 16px;
+      background:transparent url("#{asset_path('ld-3.png')}") no-repeat bottom center;
+    }
+    .lantern-4 {
+      left: 15%;
+      top: 24px;
+      background:transparent url("#{asset_path('ld-4.png')}") no-repeat bottom center;
+    }
+    .lantern-5 {
+      left: 20%;
+      top: 32px;
+      background:transparent url("#{asset_path('ld-5.png')}") no-repeat bottom center;
+    }
+    .lantern-6 {
+      left: 25%;
+      top: 40px;
+      background:transparent url("#{asset_path('ld-6.png')}") no-repeat bottom center;
+    }
+    .lantern-7 {
+      left: 30%;
+      top: 32px;
+      background:transparent url("#{asset_path('ld-7.png')}") no-repeat bottom center;
+    }
+    .lantern-8 {
+      left: 35%;
+      top: 24px;
+      background:transparent url("#{asset_path('ld-1.png')}") no-repeat bottom center;
+    }
+    .lantern-9 {
+      left: 40%;
+      background:transparent url("#{asset_path('ld-2.png')}") no-repeat bottom center;
+    }
+    .lantern-10 {
+      left:45%;
+      top: 24;
+      background:transparent url("#{asset_path('ld-3.png')}") no-repeat bottom center;
+    }
+    .lantern-11 {
+      left: 50%;
+      background:transparent url("#{asset_path('ld-1.png')}") no-repeat bottom center;
+    }
+    .lantern-12 {
+      left: 55%;
+      top: 8px;
+      background:transparent url("#{asset_path('ld-2.png')}") no-repeat bottom center;
+    }
+    .lantern-13 {
+      left: 60%;
+      top: 16px;
+      background:transparent url("#{asset_path('ld-3.png')}") no-repeat bottom center;
+    }
+    .lantern-14 {
+      left: 65%;
+      top: 24px;
+      background:transparent url("#{asset_path('ld-4.png')}") no-repeat bottom center;
+    }
+    .lantern-15 {
+      left: 70%;
+      top: 32px;
+      background:transparent url("#{asset_path('ld-5.png')}") no-repeat bottom center;
+    }
+    .lantern-16 {
+      left: 75%;
+      top: 40px;
+      background:transparent url("#{asset_path('ld-6.png')}") no-repeat bottom center;
+    }
+    .lantern-17 {
+      left: 80%;
+      top: 32px;
+      background:transparent url("#{asset_path('ld-7.png')}") no-repeat bottom center;
+    }
+    .lantern-18 {
+      left: 85%;
+      top: 24px;
+      background:transparent url("#{asset_path('ld-1.png')}") no-repeat bottom center;
+    }
+    .lantern-19 {
+      left: 90%;
+      top: 16px;
+      background:transparent url("#{asset_path('ld-2.png')}") no-repeat bottom center;
+    }
+    .lantern-20 {
+      left: 95%;
+      top: 8px;
+      background:transparent url("#{asset_path('ld-3.png')}") no-repeat bottom center;
+    }
+    .lantern-21 {
+      left: 100%;
+      top: 0px;
+      background:transparent url("#{asset_path('ld-1.png')}") no-repeat bottom center;
+    }
+    .lantern-1, .lantern-2, .lantern-3, .lantern-4, .lantern-5, .lantern-6, .lantern-7, .lantern-8, .lantern-9, .lantern-10, .lantern-11 , .lantern-12 , .lantern-13 , .lantern-14 , .lantern-15 , .lantern-16 , .lantern-17 , .lantern-18 , .lantern-19 , .lantern-20  {
+      position:absolute;
+      width: 5%;
+      height: 52%;
+      background-size: 100%;
+    }
+
+  }
+  #clouds{
+    background:transparent url("#{asset_path('clouds.png')}") repeat-x top left;
+    z-index: 2;
+  }
+  #sun-yellow{
+    position:absolute;
+    left: 10%;
+    width: 250px;
+    height: 100%;
+    background:transparent url("#{asset_path('sun_1.png')}") no-repeat center center;
+    background-size: 120px;
+    z-index: 2;
+  }
+
+  #sun-red{
+    position: absolute;
+    left: 10%;
+    width: 250px;
+    height: 100%;
+    background: transparent url("#{asset_path('sun_0.png')}") no-repeat center center;
+    background-size: 120px;
+    z-index: 2;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  }
+
+  #moon{
+    position:absolute;
+    left: 12%;
+    bottom: 10%;
+    width: 210px;
+    height: 210px;
+    background: transparent url("#{asset_path('moon.png')}") no-repeat center center;
+    background-size: 210px;
+    z-index: 6;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  }
+
+  #night{
+    background-color:  #000;
+    z-index: 4;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  }
+  #day-time, #clouds, #night, #day-night{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  #reg-modal, #details-modal{
+    .yl-radio {
+      margin-top: 10px;
+    }
+    .error {
+      color: red;
+      padding-top: 3px;
+    }
+    .yl-btn, #reg-btn {
+      background-color: #0062F5;
+    }
+    .small-text {
+      font-size: 12px;
+      font-weight: 300;
+      display: block;
+    }
+    label.small-text-1 {
+      font-size: 12px;
+      font-weight: 300;
+      margin-left: 5px;
+    }
+    .text-block {
+      margin-top: -3px;
+      color: black;
+    }
+    input.yl-input {
+      background-color: #B9F5F2;
+      border: 1px solid #B9F5F2;
+      border-radius: 5px;
+    }
+    .main-text, label.main-text-1 {
+      margin-bottom: -10px;
+      font-family: UTMCookies;
+      font-size: 14px;
+    }
+    label.main-text-1 {
+      display: inline !important;
+    }
+    .modal-content {
+      background-color: #F3F3F1;
+      border: 6px solid #B9F5F2;
+      border-radius: 22px;
+      padding: 2em;
+      position: relative;
+      margin: 0 auto;
+    }
+    .modal-content:before {
+      background-color: none;
+      border: 8px solid #0062F5;
+      border-radius: 17px;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      pointer-events: none;
+    }
+    .modal-content:after {
+      background-color: none;
+      border: 5px solid #1C00FF;
+      border-radius: 8px;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      right: 8px;
+      bottom: 8px;
+      pointer-events: none;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  #yl-home {
+    #reg-modal {
+      .modal-content {
+        width: 700px;
+        margin: auto;
+      }
+    }
+    .yl-modal-dialog {
+      width: 700px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+
+  #yl-home {
+    #reg-modal {
+      .small-text {
+        margin-left: 5px;
+        display: inline;
+      }
+    }
+    #ground{
+      width: 100%;
+      background-size: 100%;
+    }
+    #button-request {
+      width: 233px;
+      background-size: 233px;
+      top: 55%;
+      left: 250px;
+    }
+    #button-request-detail {
+      width: 233px;
+      background-size: 233px;
+      top: 55%;
+      left: -250px;
+    }
+    #sun-yellow {
+      left: -10px;
+      background-size: 80px;
+    }
+    #sun-red {
+      left: -10px;
+      background-size: 80px;
+    }
+    #moon {
+      left: 0px;
+      width: 140px;
+      height: 140px;
+      background-size: 140px;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 568px) {
+  #yl-home {
+    #button-request {
+      width: 190px;
+      background-size: 190px;
+      top: 55%;
+    }
+    #button-request-detail {
+      width: 190px;
+      background-size: 190px;
+      top: 55%;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #yl-home {
+    #sun-yellow {
+      left: -30px;
+    }
+    #sun-red {
+      left: -30px;
+    }
+    #moon {
+      left: -20px;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #yl-home {
+    #reg-modal {
+      .small-text {
+        display: block;
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 436px) {
+  #yl-home {
+    #button-request {
+      left: 0;
+      top: 65%;
+    }
+    #button-request-detail {
+      left: 0;
+      top: 50%;
+    }
+  }
+}

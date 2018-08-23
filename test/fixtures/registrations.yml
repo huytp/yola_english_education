@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name_person_send: MyString
+  phone_person_send: MyString
+  full_name_person_receive: MyString
+  message: MyText
+  address: MyText
+  phone_person_receive: MyString
+  already_sent: false
+
+two:
+  full_name_person_send: MyString
+  phone_person_send: MyString
+  full_name_person_receive: MyString
+  message: MyText
+  address: MyText
+  phone_person_receive: MyString
+  already_sent: false

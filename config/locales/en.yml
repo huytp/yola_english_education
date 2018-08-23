@@ -1,0 +1,10 @@
+
+en:
+  title: "Dear Little Moon"
+  description: 'Hãy cùng YOLA bày tỏ yêu thương đến các nhóc em của bạn trong mùa trung thu này tại http://dearlittlemoon.yola.vn nhé! - "Dear Little Moon" là những vé ghi điều ước được thiết kế và sản xuất số lượng có hạn dành riêng cho những "vầng trăng nhỏ" đáng yêu của bạn...'
+  email_validator: "is not an email"
+  name: "Xin chào %{name}"
+  copyright: "Copyright © Yola 2016"
+  logo: "Yola - Anh ngữ thông minh"
+  logout: "Đăng xuất"
+  login: "Đăng nhập"

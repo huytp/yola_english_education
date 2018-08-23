@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title = I18n.t("title")
+    meta property="og:title" content="#{I18n.t('title')}"
+    meta property="og:image" content="#{root_url}#{asset_path('facebook-background.png')}"
+    meta property="og:description" content="#{I18n.t('description')}"
+    = favicon_link_tag 'favicon.ico'
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+    meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1"
+
+  - if params[:controller] == 'admin' || params[:controller] == 'devise/registrations' || params[:controller] == 'devise/sessions'
+    body#admin-page
+      .main-container
+        #yl-header
+          = render 'layouts/header'
+        #yl-main-content
+          .container-fluid
+            .message-alert-errors
+              = render "layouts/alert", flash: flash
+            = yield
+        #yl-footer
+          = render 'layouts/footer'
+  - else
+    body#no-overflow
+      = render 'layouts/alert'
+      = yield

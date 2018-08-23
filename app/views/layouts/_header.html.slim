@@ -1,0 +1,28 @@
+nav.navbar.navbar-default.navbar-custom.navbar-fixed-top
+  .container-fluid
+    .row
+      .col-md-12.col-sm-12
+        .row
+          .col-sm-5
+            .navbar-header.page-scroll
+              button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
+                span.sr-only
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand href="#{admin_index_path}"  #{I18n.t("logo")}
+
+
+          .col-sm-7
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  = link_to "Home", root_path
+                - if user_signed_in?
+                  li
+                    a href="#{edit_user_registration_path}" = I18n.t("name", name: current_user.email)
+                  li
+                    = link_to I18n.t('logout'), destroy_user_session_path, method: 'delete'
+                - else
+                  li
+                    a data-target="#myModal" data-toggle="modal" href="#" = I18n.t("login")

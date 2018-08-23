@@ -1,0 +1,33 @@
+h3 Thông tin người dùng đã đăng ký
+.table-responsive
+  table.table
+    thead
+      tr
+        th = t(".full_name")
+        th = t(".your_phone")
+        th = t(".email")
+        th = t(".friend_full_name")
+        th = t(".friend_phone")
+        th = t(".address")
+        th = t(".message")
+        th = t(".dream")
+        th  = t(".day")
+        th = t(".sent")
+    tbody
+      - @regs.each do |reg|
+        tr.active
+          td = reg.full_name_person_send
+          td = reg.phone_person_send
+          td = reg.email
+          td = reg.full_name_person_receive
+          td = reg.phone_person_receive
+          td = reg.address
+          td = reg.message
+          td = reg.dream
+          td = reg.created_at
+          td
+            .yl-sendboxs
+              .yl-sendbox
+                = check_box_tag "category_id[]#{reg.id}", reg.already_sent, nil, class: reg.id, checked: reg.already_sent ? true : false
+                label for="category_id_#{reg.id}"
+= paginate @regs

@@ -1,0 +1,16 @@
+en:
+  admin:
+    index:
+      success_true: "Đã gửi quà"
+      success_false: "Vẫn chưa gửi quà"
+      full_name: "Họ và tên"
+      your_phone: "Số điện thoại"
+      email: "Email"
+      friend_full_name: "Họ và tên nhận"
+      friend_phone: "Số điện thoại nhận"
+      address: "Địa chỉ"
+      message: "Lời nhắn gửi"
+      day: "Ngày gửi"
+      sent: "Đã gửi quà"
+      dream: "Điều ước"
+

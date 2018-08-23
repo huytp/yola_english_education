@@ -1,0 +1,85 @@
+.modal.fade#reg-modal tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  .modal-dialog.yl-modal-dialog role="document"
+    .modal-content
+
+      .modal-body
+        = form_tag registrations_path, class: "yl-form", id: "yola-form-registration"
+          .form-group
+            .row
+              .col-sm-4.col-xs-12.text-block
+                label.main-text = t(".full_name_1")
+                label.small-text
+                  = t(".full_name_2")
+              .col-sm-8.col-xs-12
+                input.form-control.yl-input type="text" name="full_name_person_send"
+          .form-group
+            .row
+              .col-sm-4.text-block.col-xs-12
+                label.main-text = t(".your_phone_1")
+                label.small-text
+                  = t(".your_phone_2")
+              .col-sm-8.col-xs-12
+                input.form-control.yl-input type="number" name="phone_person_send"
+          .form-group
+            .row
+              .col-sm-4.text-block.col-xs-12
+                label.main-text = t(".email_1")
+                label.small-text
+                  = t(".email_2")
+              .col-sm-8.col-xs-12
+                input.form-control.yl-input type="email" name="email"
+          .form-group
+            .row
+              .col-sm-4.text-block.col-xs-12
+                label.main-text = t(".friend_full_name_1")
+                label.small-text
+                  = t(".friend_full_name_2")
+              .col-sm-8.col-xs-12
+                input.form-control.yl-input type="text" name="full_name_person_receive"
+          .form-group
+            .row
+              .col-sm-4.text-block.col-xs-12
+                label.main-text = t(".friend_phone_1")
+                label.small-text
+                  = t(".friend_phone_2")
+              .col-sm-8.col-xs-12
+                input.form-control.yl-input type="number" name="phone_person_receive"
+          .form-group
+            .row
+              .col-sm-4.text-block.col-xs-12
+                label.main-text = t(".address_1")
+                label.small-text
+                  = t(".address_2")
+              .col-sm-8.col-xs-12
+                input.form-control.yl-input type="text" name="address"
+          .form-group
+            .row
+              .col-sm-4.text-block.col-xs-12
+                label.main-text = t(".message_1")
+                label.small-text
+                  = t(".message_2")
+              .col-sm-8.col-xs-12
+                input.form-control.yl-input type="text" name="message"
+          .form-group
+            .row
+              .col-sm-12.text-block.col-xs-12
+                label.main-text-1 = t(".choise_1")
+                label.small-text-1 = t(".choise_2")
+
+              .col-sm-12.col-xs-12
+                .row
+                  .col-sm-4.radio
+                    label
+                      = radio_button("reg", "dream", HUG)
+                      = HUG
+                  .col-sm-4.radio.yl-radio
+                    label
+                      = radio_button("reg", "dream", BUY_CREAM)
+                      = BUY_CREAM
+                  .col-sm-4.radio.yl-radio
+                    label
+                      = radio_button("reg", "dream", TRAVEL)
+                      = TRAVEL
+      .modal-footer
+        button.btn.btn-default type="button" data-dismiss="modal" = t(".close")
+        button.btn.btn-primary.yl-btn type="button" = t(".send")

@@ -1,0 +1,21 @@
+.yl-home#yl-home
+  #yola-logo
+  #program-logo
+  #button-request.btn data-toggle="modal" data-target="#reg-modal"
+  #button-request-detail.btn data-toggle="modal" data-target="#details-modal"
+  #parachute
+  #day-time
+  #day-night
+  #sun-yellow
+  #sun-red
+  #clouds
+  #ground
+  #night
+  #moon
+  #lanterns
+    - 21.times do |i|
+      div class = "lantern-#{i}"
+  = render 'registration'
+  = render 'details'
+.yl-like-modal
+  = render 'like_fanpage'

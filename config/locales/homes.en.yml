@@ -1,0 +1,78 @@
+en:
+  homes:
+    details:
+      title_1: 'Đã bao lâu rồi bạn chưa:'
+      title_2: '- Ôm nhóc em một cái?'
+      title_3: '- Dẫn em bé đi chơi?'
+      title_4: 'Mua cho nhóc em một món quà nhưng không biết bé thích gì?'
+      title_5: 'Hãy cùng YOLA bày tỏ yêu thương đến các nhóc em của bạn trong mùa trung thu này tại'
+      title_5_1: 'http://dearlittlemoon.yola.vn'
+      title_5_2: 'nhé!'
+      title_6: '"Dear Little Moon" là những vé ghi điều ước được thiết kế và sản xuất số lượng có hạn dành riêng cho những "vầng trăng nhỏ" đáng yêu của bạn.'
+      little_6_1: 'Sau khi nhận được bộ Coupon, nhóc em sẽ ghi lên đó những điều ước muốn bạn thực hiện.'
+      title_7: 'Lưu ý là bạn sẽ được chọn một coupon đã ghi sẵn điều ước, và hai coupon còn lại nhóc em sẽ tự ghi điều mà bé muốn bạn thực hiện.'
+      title: 'Còn chờ gì nữa! Đăng ký ngay nhé, YOLA sẽ làm cầu nối cho bạn!'
+      rules: 'THỂ LỆ ĐĂNG KÝ GỬI TẶNG BỘ COUPON "DEAR LITTLE MOON"'
+      participants: 'Người tham dự:'
+      row_1: '- Tất cả những ai từng là trẻ thơ và mong muốn một trung thu ý nghĩa cho trẻ thơ'
+      time: 'Thời gian:'
+      registration: '- Đăng ký và gửi lời nhắn gửi trước ngày 10/9/2016'
+      how_to : 'Cách thức tham gia:'
+      step_1: 'Bước 1:'
+      enter_infor: 'Người tham gia điền thông tin và lời chúc đến một em nhỏ bất kỳ (Có thể là em ruột, em họ, hàng xóm hoặc một em bé bạn gặp trong một chuyến đi...)'
+      step_2: 'Bước 2:'
+      step_3: 'Bước 3:'
+      note: 'Lưu ý'
+      row_2: '- YOLA sẽ bắt đầu gửi quà từ 3 đến 4 ngày sau khi nhận được lời nhắn. Quà mất từ 2 đến 3 ngày để đến tay các bé tại khu vực nội thành Tp. HCM. Với các tỉnh thành khác thời gian sẽ lâu hơn.'
+      contact: 'Liên hệ'
+      phone: 'Hotline: 08 3925 9933'
+      email: 'Email:'
+      yola_email: "contest@yola.vn"
+      responsibility: '- YOLA không chịu trách nhiệm với các trường hợp quà không đến nơi do điền thiếu, sai địa chỉ.'
+      step_2_1: 'Sau đó chia sẻ công khai'
+      step_2_2: 'status thông báo của YOLA'
+      step_2_3: 'tại Facebook cá nhân. YOLA sẽ gửi đến em của bạn lời chúc mừng Trung Thu đã được in ra cùng bộ coupon "Dear, Little Moon" cực xinh từ YOLA!'
+      step_3_1: 'Đặc biệt nếu bạn tag thêm 3 người bạn dưới'
+      step_3_2: 'comment'
+      step_3_3: 'thì bạn sẽ có cơ hội nhận được một món quà xinh xắn từ YOLA.'
+      note_1: '-  Chỉ những bạn đã chia sẻ công khai'
+      note_2: 'status thông báo'
+      note_3: 'mới được tính là đăng ký gửi tặng thành công.'
+      back: 'Trở lại'
+      reg: 'Đăng ký'
+    registration:
+      full_name_1: "Họ và tên bạn:"
+      full_name_2: " (Your full name)"
+      your_phone_1: "Số điện thoại:"
+      your_phone_2: "(Your phone number)"
+      email_1: "Email:"
+      email_2: "(Your email)"
+      friend_full_name_1: "Họ và tên em bé nhận quà:"
+      friend_full_name_2: "(Your Little Moon's name)"
+      friend_phone_1: "Số điện thoại nhận quà"
+      friend_phone_2: "(Your Little Moon's phone number)"
+      address_1: "Địa chỉ nhận quà:"
+      address_2: "(Your Little Moon's address)"
+      message_1: "Lời nhắn gửi:"
+      message_2: "(Write he/she a wish!)"
+      close: "Trở lại"
+      send: "Tiếp tục"
+      successfully: "Chúc mừng bạn đã đăng ký thành công"
+      choise_1: "Hãy chọn một điều ước được ghi sẵn từ YOLA mà bạn muốn thực hiện cho nhóc em của mình:"
+      choise_2: "(Choose one wish that you want to do for your little moon)"
+    like_fanpage:
+      follow: "Bạn nhớ Like YOLA trước khi bắt đầu nhé!"
+  user_mailer:
+    welcome_email:
+      title_success: "YOLA - Dear Little Moon - Chúc mừng đăng ký gửi tặng thành công!"
+      hello: "Xin chào "
+      congrats: "Chúc mừng bạn đã đăng ký gửi tặng bộ coupon Dear Little Moon cho "
+      success: " thành công"
+      phone: "Với số điện thoại là %{phone}, "
+      address: "địa chỉ: %{address}"
+      message: "Kèm theo lời nhắn gửi là: %{message}"
+      row_1: "Bộ coupon Dear Little Moon sẽ được gửi trong vòng 3, 4 ngày kể từ ngày đăng ký."
+      row_2: "Cảm ơn bạn đã quan tâm các chương trình tại YOLA!"
+      row_3: "Chúc một mùa Trung Thu vui vẻ!"
+      dear: "Thân mến,"
+      yola: "YOLA"

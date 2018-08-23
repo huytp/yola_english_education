@@ -1,0 +1,17 @@
+h3
+  = t(".hello")
+  = @regis.full_name_person_send
+p
+  = t(".congrats")
+  = @regis.full_name_person_receive
+  = t(".success")
+p
+  = t(".phone", phone: @regis.phone_person_receive)
+  = t(".address", address: @regis.address)
+p = t(".message", message: @regis.message)
+p = t(".row_1")
+p = t(".row_2")
+p = t(".row_3")
+br
+p = t(".dear")
+p = t(".yola")

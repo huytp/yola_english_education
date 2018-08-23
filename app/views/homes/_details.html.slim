@@ -1,0 +1,87 @@
+.modal.fade#details-modal tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  .modal-dialog.yl-modal-dialog role="document"
+    .modal-content
+      .modal-body
+        p
+          em
+            div = t(".title_1")
+            div = t(".title_2")
+            div = t(".title_3")
+            div = t(".title_4")
+            div
+              = t(".title_5")
+              | &nbsp;
+              a href="http://dearlittlemoon.yola.vn"
+                = t(".title_5_1")
+              | &nbsp;
+              = t(".title_5_2")
+            div = t(".title_6")
+            div = t(".little_6_1")
+            div = t(".title_7")
+            br
+            = t(".title")
+
+        div
+          = t(".rules")
+          br
+          br
+          strong
+            = t(".participants")
+          br
+            = t(".row_1")
+          br
+          strong
+            = t(".time")
+          br
+            = t(".registration")
+          br
+          strong
+            = t(".how_to")
+          br
+            = t(".step_1")
+          div
+            = t(".enter_infor")
+          div
+            = t(".step_2")
+          div
+            = t(".step_2_1")
+            | &nbsp;
+            a href="https://www.facebook.com/YolaInstitute/photos/a.395546732495.172522.127989712495/10153885777627496/?type=3&theater" target="_blank"
+              = t(".step_2_2")
+            | &nbsp;
+            = t(".step_2_3")
+          div
+            = t(".step_3")
+          div
+            = t(".step_3_1")
+            | &nbsp;
+            a href="https://www.facebook.com/YolaInstitute/photos/a.395546732495.172522.127989712495/10153885777627496/?type=3&theater" target="_blank"
+              = t(".step_3_2")
+            | &nbsp;
+            = t(".step_3_3")
+          br
+            = t(".note")
+          div
+            = t(".note_1")
+            | &nbsp;
+            a href="https://www.facebook.com/YolaInstitute/photos/a.395546732495.172522.127989712495/10153885777627496/?type=3&theater" target="_blank"
+              = t(".note_2")
+            | &nbsp;
+            = t(".note_3")
+          div
+            = t(".row_2")
+          div
+            = t(".responsibility")
+          br
+            = t(".contact")
+          div
+            = t(".phone")
+          div
+            = t(".email")
+            | &nbsp;
+            a href="mailto:contest@yola.vn" target="_blank"
+              = t(".yola_email")
+          br
+      .modal-footer
+        button.btn.btn-default type="button" data-dismiss="modal" = t(".back")
+        button.btn.btn-primary#reg-btn type="button" data-dismiss="modal" data-toggle="modal" data-target="#reg-modal" = t(".reg")
